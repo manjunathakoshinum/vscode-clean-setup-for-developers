@@ -1,0 +1,152 @@
+{
+  // 🧠 Core Editor Experience
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "all",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.codeLens": true,
+  "editor.rulers": [100, 120],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.snippetSuggestions": "inline",
+  "editor.largeFileOptimizations": true,
+  "files.maxMemoryForLargeFilesMB": 4096,
+  "editor.codeActionsOnSaveTimeout": 5000,
+
+  // 🧱 Files & Auto Save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.DS_Store": true,
+    "**/.next": true,
+    "**/.turbo": true,
+    "**/coverage": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.git/**": true,
+    "**/.next/**": true,
+    "**/.turbo/**": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  // 🧩 Terminal
+  "terminal.integrated.defaultProfile.windows": "bash (MSYS2)",
+  "terminal.integrated.scrollback": 20000,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.inheritEnv": true,
+
+  // 🚀 Workbench & UI
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "off",
+  "window.zoomLevel": 0,
+  "window.commandCenter": true,
+  "workbench.layoutControl.enabled": true,
+
+  // 🧰 TypeScript & JavaScript
+  "typescript.tsserver.log": "off",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // 🧪 Linting & Prettier
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "json"],
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "prettier.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+
+  // 🧑‍💻 Git
+  "git.autorefresh": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.pruneOnFetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.decorations.enabled": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "extensions.autoUpdate": false,
+  "npm.packageManager": "npm",
+
+  // 🧪 Testing & Debugging
+  "debug.console.wordWrap": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+
+  // ⚡ Productivity & IntelliSense
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  "problems.showCurrentInStatus": true,
+
+  // 🔍 Search Exclusions
+  "search.followSymlinks": false,
+  "search.useIgnoreFiles": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/.next": true,
+    "**/.turbo": true
+  },
+
+  // 🧑‍💼 CSS / SCSS Validation
+  "css.lint.unknownAtRules": "warning",
+  "css.validate": true,
+  "scss.validate": true,
+  "editor.dropIntoEditor.preferences": []
+}
