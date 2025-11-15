@@ -117,7 +117,7 @@ a developer obsessed with clean architecture, clarity, and developer experience.
 
 ### 🧰 License
 
-MIT License © 2025 [Your Name]
+MIT License © 2025 [Manjunatha]
 Free to use, modify, and share — with credit.
 
 ---
