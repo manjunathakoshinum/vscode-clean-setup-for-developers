@@ -110,7 +110,7 @@ cd .vscode-profiles
 
 ### 🌟 Credits
 
-Created and maintained by **[Your Name](https://github.com/yourusername)** —
+Created and maintained by **[manjunatha](https://github.com/manjuathakoshinum)** —
 a developer obsessed with clean architecture, clarity, and developer experience.
 
 ---
