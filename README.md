@@ -97,7 +97,7 @@ Whether you’re designing a React UI or deploying a NestJS API — your editor 
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git https://github.com/manjunathakoshinum/vscode-clean-setup-for-developers.git
 
 # Navigate
 cd .vscode-profiles
